@@ -11,7 +11,7 @@ public class Main {
         customer3.addTransaction(8.9);
 
 
-        ArrayList<Customer> myList = new ArrayList<Customer>();
+        ArrayList<Customer> myList = new ArrayList<>();
         myList.add(customer1);
         myList.add(customer2);
         myList.add(customer3);

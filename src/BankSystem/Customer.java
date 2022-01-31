@@ -18,10 +18,10 @@ public class Customer {
     public String getName() {
         return name;
     }
-
     public ArrayList<Double> getTransactions() {
         return transactions;
     }
+
     @Override
     public String toString(){
         return "Customer Name : " + name + "\nTransactions : " +(transactions);

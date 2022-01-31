@@ -20,6 +20,7 @@ public class Branch {
         int customerIdx = customerList.indexOf(customer);
         customerList.get(customerIdx).addTransaction(transaction);
     }
+
     @Override
     public String toString(){
         String retString = branchName + "\n_____________\n";
@@ -29,10 +30,10 @@ public class Branch {
         }
         return retString;
     }
+
     public String getBranchName() {
         return branchName;
     }
-
     public ArrayList<Customer> getCustomerList() {
         return customerList;
     }
